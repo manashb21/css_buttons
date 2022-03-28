@@ -1,0 +1,117 @@
+:root
+{
+    --padding-btn:  1rem 2rem 1rem 2rem;
+    --border-radius: .1rem;
+}
+
+button
+{
+    font-family: Helvetica;
+    font-size: 18px;
+    margin: 10px 6px 10px ;
+    cursor: pointer;
+}
+
+#yt
+{
+    background-color: #c4302b;
+    color: white;
+    padding:var(--padding-btn);
+    border: none;
+    border-radius: var(--border-radius);
+}
+
+#join
+{
+    background-color: white;
+    border-style: solid;
+    border-color: rgba(46, 46, 231, 0.781);
+    color: rgba(46, 46, 231, 0.781);
+    border-width: .07rem;
+    padding: var(--padding-btn);
+    border-radius: var(--border-radius);
+}
+
+#tweet
+{
+    background-color: #00acee;
+    color: white;
+    padding: var(--padding-btn);
+    border-radius: 2rem;
+    border-style: none;
+}
+
+
+#uber
+{
+    background-color: black;
+    color: white;
+    border-style: none;
+    padding: var(--padding-btn);
+}
+
+#amazon
+{
+    background-color: rgb(255, 216 , 20);
+    color: black;
+    border-style: none;
+    border-radius: 2rem;
+    font-size: large;
+    padding: var(--padding-btn);
+}
+
+#github
+{
+    background-color: rgb(46,164,79);
+    color: white;
+    border-radius: .4rem;
+    border-style: none;
+    font-weight: bold;
+    padding: var(--padding-btn);
+}
+
+.bootstrap#getstarted
+{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border-radius: .2rem;
+    border-style: none;
+    font-weight: bold;
+    padding: var(--padding-btn);
+}
+
+.bootstrap#download
+{
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+    border-style:solid;
+    border-width: .08rem;
+    border-radius: .2rem;
+    font-weight: bold;
+    padding: var(--padding-btn);
+}
+
+.linkedin#apply
+{
+    background-color: rgb(10, 102,194);
+    color: white;
+    border-style: none;
+    border-radius: 2rem;
+    font-size: large;
+    font-weight: bold;
+    padding: var(--padding-btn);
+}
+
+.linkedin#save
+{
+    background-color: white;
+    color: rgb(10, 102,194);
+    border-color: rgb(10, 102,194);
+    border-style: solid;
+    border-width: .09rem;
+    border-radius: 2.5rem;
+    font-size: large;
+    font-weight: bold;
+    padding: var(--padding-btn);
+}
